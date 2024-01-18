@@ -227,3 +227,112 @@
 //       // 111
 //     }    
 // }
+
+
+
+// // одномерные массивы
+// public class programm {
+//     public static void main(String[] args)
+//     {
+//     int[] arr = new int[10];
+//     System.out.println(arr.length); 
+
+//     arr = new int[] {1,2,3,4,5};
+//     System.out.println(arr.length);
+//     }    
+// }
+
+
+
+// // одномерные массивы : выделение индекса 
+// public class programm {
+//     public static void main(String[] args)
+//     {
+//     int[] arr = new int[10];
+//     System.out.println(arr[3]); 
+
+//     }    
+// }
+
+
+
+// // одномерные массивы : присвоение
+// public class programm {
+//     public static void main(String[] args)
+//     {
+//     int[] arr = new int[10];
+//     arr[3] = 10;
+//     System.out.println(arr[3]); 
+
+//     }    
+// }
+
+
+// // многомерные массивы
+// public class programm {
+//     public static void main(String[] args)
+//     {
+//         int[] arr[] = new int[3][5];
+//         for (int[] line : arr) {
+//             for (int item : line) {
+//                 System.out.printf("%d ",item);
+//             }
+//             System.out.println();
+//         }
+//     }
+
+// }
+
+
+// многомерные массивы : двумерные массивы
+// public class programm {
+//     public static void main(String[] args)
+//     {
+//         int[][] arr = new int[3][5];
+//         for (int i = 0 ; i < arr.length ; i++) {
+//             for (int j = 0 ; j < arr[i].length ; j++) {
+//                 System.out.printf(":d", arr[i][j]);
+//             }
+//             System.out.println();
+//         }
+// }
+// }
+
+
+// преобразование : можно ?
+
+// получение данных их терминала
+// import java.util.Scanner;
+// public class programm {
+// public static void main (String[] args) {
+// Scanner iScanner = new Scanner (System. in) ;
+// System.out.printf ("name: ");
+// String name = iScanner.nextLine () ;
+//  System.out.printf ("Привет, %s!", name);
+// iScanner. close () ;
+// }
+// }
+
+
+// форматированный вывод 
+// public class programm {
+//     public static void main(String[] args) {
+//         int a = 2,  b = 3;
+//         int c = a + b;
+//         String res = a + "+" + b + "=" + c;
+//         System.out.println(res);
+
+//     }
+// }
+
+
+// // форматированный вывод 
+// public class programm {
+//     public static void main(String[] args) {
+//         int a = 2,  b = 3;
+//         int c = a + b;
+//         String res = String.format("&d +öd = id \n", a, b, c);
+//         System.out.printf("%d + %d = %d \n", a, b, c);
+//         System.out.println(res);
+//      }
+// }
