@@ -1,4 +1,4 @@
-// public class programm {
+// public class lection {
 
 //     public static void main(String[] args)       # создание программы
 //     {
@@ -10,7 +10,7 @@
 
 // использование сниппета 
 
-// public class programm {           
+// public class lection {           
 // public static void main(String[] args) {     
 //     System.out.println("Goodbye world");      
 // }
@@ -21,7 +21,7 @@
 
 // // использование сниппета sysout 
 
-// public class programm {           
+// public class lection{           
 //     public static void main(String[] args) {
 //         System.out.println("Goodbye world123");     
 //     }
@@ -32,7 +32,7 @@
     
 // // типы данных 
 
-// public class programm {           
+// public class lection {           
 //     public static void main(String[] args) {
 //         String S = " 2";
         
@@ -43,7 +43,7 @@
 
 
 
-// public class programm {
+// public class lection {
 //     public static void main(String[] args)
 //     {
 //         short age = 10;
@@ -58,7 +58,7 @@
 
 // // вещественный числа
 // // при типе данных типа float необходимо добавить суффикс f
-// public class programm {
+// public class lection {
 //     public static void main(String[] args)
 //     {
 //         float e = 2.7f;
@@ -73,7 +73,7 @@
 
 
 // // тип данных типа char
-// public class programm {
+// public class lection {
 //     public static void main(String[] args)
 //     {
 //        char ch = '1';   // true
@@ -88,7 +88,7 @@
 //////////////////////////////////////////////////////////////////////////////////////////////////
 
 // // тип данных типа boolean
-// public class programm {
+// public class lection {
 //     public static void main(String[] args)
 //     {
 //        boolean flag_1 = 123 <= 234;
@@ -106,7 +106,7 @@
 //////////////////////////////////////////////////////////////////////////////////////////////////
 
 // // неявная типизация
-// public class programm {
+// public class lection{
 //     public static void main(String[] args)
 //     {
 //       var a = 123;
@@ -119,7 +119,7 @@
 // }
 
 
-// public class programm {
+// public class lection{
 //     public static void main(String[] args) {
 //         var a = 123;
 //         System.out.println(a);  // 123
@@ -141,7 +141,7 @@
 //////////////////////////////////////////////////////////////////////////////////////////////////
 
 // // классы-обертки
-// public class programm {
+// public class lection {
 //     public static void main(String[] args)
 //     {
 //       int i = 123;
@@ -153,7 +153,7 @@
 //////////////////////////////////////////////////////////////////////////////////////////////////
 
 // // операции java
-// public class programm {
+// public class lection {
 //     public static void main(String[] args)
 //     {
 //       int i = 123;
@@ -164,7 +164,7 @@
 
 
 // // операции java: сравнение
-// public class programm {
+// public class lection {
 //     public static void main(String[] args)
 //     {
 //       boolean f = 123 <= 124;
@@ -174,7 +174,7 @@
 
 
 // // операции java: побитовые сдвиг
-// public class programm {
+// public class lection {
 //     public static void main(String[] args)
 //     {
 //       int a = 8;
@@ -184,7 +184,7 @@
 
 
 // // операции java: побитовые операции
-// public class programm {
+// public class lection {
 //     public static void main(String[] args)
 //     {
 //       int a = 5;
@@ -197,7 +197,7 @@
 // }
 
 // // операции java: побитовые операции
-// public class programm {
+// public class lection {
 //     public static void main(String[] args)
 //     {
 //       int a = 5;
@@ -211,7 +211,7 @@
 
 
 // // операции java: побитовые операции сдвиги
-// public class programm {
+// public class lection {
 //     public static void main(String[] args)
 //     {
 //       int a = 5;
@@ -226,7 +226,7 @@
 //////////////////////////////////////////////////////////////////////////////////////////////////
 
 // // одномерные массивы
-// public class programm {
+// public class lection {
 //     public static void main(String[] args)
 //     {
 //     int[] arr = new int[10];
@@ -239,7 +239,7 @@
 
 
 // // одномерные массивы : выделение индекса 
-// public class programm {
+// public class lection {
 //     public static void main(String[] args)
 //     {
 //     int[] arr = new int[10];
@@ -250,7 +250,7 @@
 
 
 // // одномерные массивы : присвоение
-// public class programm {
+// public class lection {
 //     public static void main(String[] args)
 //     {
 //     int[] arr = new int[10];
@@ -263,7 +263,7 @@
 //////////////////////////////////////////////////////////////////////////////////////////////////
 
 // // многомерные массивы
-// public class programm {
+// public class lection {
 //     public static void main(String[] args)
 //     {
 //         int[] arr[] = new int[3][5];
@@ -279,7 +279,7 @@
 
 
 // многомерные массивы : двумерные массивы
-// public class programm {
+// public class lection {
 //     public static void main(String[] args)
 //     {
 //         int[][] arr = new int[3][5];
@@ -298,7 +298,7 @@
 
 // преобразование : можно ?
 
-// public class programm {
+// public class lection {
 //     public static void main(String[] args) {
 //         int i = 123; double d = i;
 //         System.out.println(i);  // 123
@@ -326,7 +326,8 @@
 
 // получение данных их терминала
 // import java.util.Scanner;
-// public class programm {
+
+// public class lection {
 // public static void main (String[] args) {
 // Scanner iScanner = new Scanner (System. in) ;
 // System.out.printf ("name: ");
@@ -339,7 +340,8 @@
 // получение данных их терминала : некоторые примитивы
 
 // import java.util.Scanner;
-// public class programm {
+
+// public class lection{
 //     public static void main(String[] args) {
 //         Scanner iScanner = new Scanner(System.in);
 //         System.out.printf("int a: ");
@@ -352,7 +354,8 @@
 
 // получение данных их терминала : проверка на соответствие получаемого типа
 // import java.util.Scanner;
-// public class programm {
+
+// public class lection {
 // public static void main(String[] args) {
 // Scanner iScanner = new Scanner(System.in);
 // System.out.printf("int a: ");
@@ -368,7 +371,7 @@
 
 
 // форматированный вывод 
-// public class programm {
+// public class lection{
 //     public static void main(String[] args) {
 //         int a = 2,  b = 3;
 //         int c = a + b;
@@ -380,7 +383,7 @@
 
 
 // // форматированный вывод 
-// public class programm {
+// public class lection{
 //     public static void main(String[] args) {
 //         int a = 2,  b = 3;
 //         int c = a + b;
@@ -396,7 +399,7 @@
 
 // виды спецификаторов
 
-// public class programm {
+// public class lection{
 //     public static void main(String[] args) {
 //         float pi = 3.1415f;
 // System.out.printf("%f\n", pi);    // 3,141500
@@ -415,7 +418,7 @@
 // область видимых переменных
 
 
-// public class programm {
+// public class lection {
 //     public static void main(String[] args) {
 //  {
 //  int i = 123;
@@ -431,7 +434,7 @@
 
 // Функции и методы
 
-// public class programm {
+// public class lection {
 //     static void sayHi() {
 //         System.out.println("hi!");
 //     }
@@ -455,7 +458,7 @@
 // Управляющий конструкции
 
 // условный оператор
-// public class programm {
+// public class lection {
 //     public static void main(String[] args) 
 //     {
 //         int a = 1;
@@ -474,7 +477,7 @@
 
 
 // условный оператор
-// public class programm {
+// public class lection {
 //         public static void main(String[] args) 
 //         {
 //             int a = 1;
@@ -488,7 +491,7 @@
 
 
 // // тернарный оператор
-// public class programm 
+// public class lection
 // {
 //     public static void main(String[] args) 
 //     {
@@ -506,7 +509,8 @@
 // оператор выбора
 
 // import java.util.Scanner;
-// public class programm  
+
+// public class lection 
 // {
 //     public static void main(String[] args)
 //     {
@@ -534,7 +538,7 @@
 // Циклы
 
 // цикл while
-// public class programm 
+// public class lection
 // {
 //     public static void main(String[] args) 
 //     {
@@ -551,7 +555,7 @@
 
 
 // цикл do while
-// public class programm 
+// public class lection
 // {
 //     public static void main(String[] args) 
 //     {
@@ -570,7 +574,7 @@
 
 
 // цикл for
-// public class programm
+// public class lection
 // {
 //     public static void main(String[] args) 
 //     {
@@ -585,7 +589,7 @@
 
 
 // вложенные циклы
-// public class programm
+// public class lection
 // {
 //     public static void main(String[] args) 
 //     {
@@ -603,7 +607,7 @@
 
 
 // for работает только для коллекций
-// public class programm 
+// public class lection
 // {
 //     public static void main(String[] args) 
 //     {
@@ -626,7 +630,7 @@
 // import java.io.FileWriter;
 // import java.io.IOException;
 
-//  public class programm 
+//  public class lection
 //  {
 //      public static void main(String[] args) 
 //      {
@@ -650,7 +654,7 @@
 // Чтение, вариант посимвольно
 // import java.io.*;
 
-//   public class programm 
+//   public class lection 
 //   {
 //       public static void main(String[] args) throws Exception 
 //       {
@@ -676,7 +680,7 @@
 // Вариант посрочно
 // import java.io.*;
 
-//   public class programm 
+//   public class lection 
 //   {
 //       public static void main(String[] args) throws Exception 
 //       {
