@@ -1,3 +1,4 @@
+package lesson_1;
 // public class lection {
 
 //     public static void main(String[] args)       # создание программы
