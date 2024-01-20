@@ -1,5 +1,6 @@
 package lesson_1;
 
+// import java.util.Arrays;
 
 // Задача №1
 /* 
@@ -45,6 +46,105 @@ package lesson_1;
     
 // }
 
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
+// Задача №2
+// Дан массив двоичных чисел, например [1,1,0,1,1,1], вывести максимальное количество подряд идущих 1.
+
+// public class seminar_1 
+// {
+//     public static void main(String[] args) 
+//     {
+//         int[] array = {1,1,0,1,1,1};
+//         int max_count = 0;
+//         int count = 0;
+//         for (int i = 0; i < array.length; i++) 
+//         {
+//             if (array[i] == 1) 
+//             {
+//                 count ++;
+//             } 
+//                 if (count > max_count)
+//                     {
+//                         max_count = count; 
+//                     }
+//             else 
+//             {
+//                 count = 0;
+//             }
+//         }
+//        System.out.println("Максимаоьное количество идуших подряд единиц =" + max_count);
+//     }
+     
+// }
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+// Задача №3
+// Дан массив nums = [3,2,2,3] и число val = 3.
+// Если в массиве есть числа, равные заданному, нужно перенести эти элементы в конец массива.
+// Таким образом, первые несколько (или все) элементов массива
+// должны быть отличны от заданного, а остальные - равны ему.
+
+// public class seminar_1 
+// {
+//     public static void main(String[] args) 
+//     {
+//         int[] array = {3,2,2,3};
+//         int val = 3;
+//         int[] result = sort(array, val);
+//         System.out.println(Arrays.toString(array));
+//         System.out.println(Arrays.toString(result));
+//     }
+
+//     public static int[] sort(int[] arr, int val)
+//     {
+//         int[] arr_1 = new int[arr.length]; 
+//         Arrays.fill(arr_1, val);
+//         for (int i = 0, j = 0; i < arr.length; i++) 
+//         {
+//             if (arr[i] != val)
+//             {
+//                 arr_1[j++] = arr[i];
+                
+//             }
+//         }
+//         return arr_1;
+//     }
+//}
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
+// Задача №5
+// Во фразе "Добро пожаловать на курс по Java" переставить слова в обратном порядке.
+
+// public class seminar_1 
+// {
+//     public static void main(String[] args)
+//     {
+//         String s = "Добро пожаловать на курс по Java";
+//         String[] arr_s = s.split(" ");
+//         String new_s = " ";                    // новая строка куда помещаем новые переменные
+//         for (int i = arr_s.length - 1; i >= 0; i--) 
+//         {
+//             new_s += arr_s[i] + " ";
+//         }
+//         System.out.println(new_s.trim());   // trim() удаляет лишние пробелы
+//     }
+    
+// }
+
+
+
+
+
+  
+    
+  
 
 
 
