@@ -1,8 +1,8 @@
-package lesson_1;
+// package lesson_1;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
+// import java.util.ArrayList;
+// import java.util.List;
+// import java.util.Scanner;
 
 // Задача №1
 //Внутри класса Answer напишите метод countNTriangle, 
