@@ -1,0 +1,8 @@
+янв. 24, 2024 11:50:07 PM seminar_2 writeToFile
+INFO: запись в файл была успешна
+янв. 24, 2024 11:52:21 PM seminar_2 writeToFile
+INFO: запись в файл была успешна
+янв. 25, 2024 12:09:37 AM seminar_2 writeToFile
+INFO: запись в файл была успешна
+янв. 25, 2024 12:23:45 AM seminar_2 writeToFile
+INFO: запись файла прошла успешна
