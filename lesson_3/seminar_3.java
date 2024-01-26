@@ -1,6 +1,6 @@
 package lesson_3;
 
-import java.util.List;
+
 
 // Задача
 //Даны следующие строки, сравнить их с помощью == и метода equals) класса
@@ -138,24 +138,49 @@ import java.util.List;
 // Напишите метод для заполнения данной структуры.
 
 /* 
-[ "Сказка""Золотой ключик", "Репка"],
+[ "Сказка","Золотой ключик", "Репка"],
 [ "Роман","Мастер и Маргарита", "Война и Мир"],
 ["Фентези", "Гарри Поттер", "Ночной дозор"]
 */
+
+// import java.util.ArrayList;
+// import java.util.List;
 
 // public class seminar_3 
 // {
 //     public static void main(String[] args) 
 //     {
-//         add_book(shop_Book, genre : "Сказка", name_book : "Золотой ключик");
-//         add_book(shop_Book, genre : "Роман", name_book : "Мастер и Маргарита");
-//         add_book(shop_Book, genre : "Сказка", name_book : "Репка");
-//         add_book(shop_Book, genre : "Фэнтези", name_book : "Гарри Поттер");
-//         add_book(shop_Book, genre : "Роман", name_book : "Война и Мир");
-//         add_book(shop_b ook, genre : "Фэнтези", name_book : "Ночной Дозор");
+//         List<List<String>> shop_Book = new ArrayList<>();
+
+//         add_book(shop_Book, "Сказка", "Золотой ключик", null, null);
+//         add_book(shop_Book, "Роман", "Мастер и Маргарита", null, null);
+//         add_book(shop_Book, "Сказка", "Репка", null, null);
+//         add_book(shop_Book, "Фэнтези", "Гарри Поттер", null, null);
+//         add_book(shop_Book, "Роман", "Война и Мир", null, null);
+//         add_book(shop_Book, "Фэнтези", "Ночной дозор", null, null);
+
+//         System.out.println(shop_Book);
 //     }
-//     private static void add_book (List<List<String>> shop_book, String genre, String name_book)
+//     private static void add_book (List<List<String>> shop_book, String genre, String name_book, String name_book2, String string)
 //         {
-            
+//             for (int i = 0; i < shop_book.size(); i++) 
+//             {
+//                 List<String> bookshelf = shop_book.get(i);
+//                 if (bookshelf.get(0).equals(genre))
+//                 {
+//                     bookshelf.add(name_book);
+//                     return;
+//                 }
+//             }
+//             List<String> new_bookshelf = new ArrayList<>();
+//             new_bookshelf.add(genre);
+//             new_bookshelf.add(name_book);
+//             shop_book.add(new_bookshelf);
+
 //         }    
 // }
+
+
+
+
+
