@@ -87,8 +87,5 @@ public class lection_4
         System.out.printf("%d\n", st.pop());
     }
 
-    private static boolean isDigit(String string) {
-        
-        throw new UnsupportedOperationException("Unimplemented method 'isDigit'");
-    }
+   
 }

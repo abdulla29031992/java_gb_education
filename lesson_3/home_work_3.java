@@ -1,10 +1,5 @@
 package lesson_3;
 
-// import java.util.ArrayList;
-// import java.util.Collections;
-// import java.util.List;
-// import java.util.Random;
-
 // //Реализовать алгоритм сортировки слиянием.
 
 // import java.util.Arrays;
@@ -125,6 +120,11 @@ package lesson_3;
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 // Задан целочисленный список ArrayList. Найти минимальное, максимальное и среднее арифметичское этого списка.
+
+// import java.util.ArrayList;
+// import java.util.Collections;
+// import java.util.List;
+// import java.util.Random;
 
 // public class home_work_3 
 // {
