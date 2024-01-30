@@ -1,10 +1,11 @@
 package lesson_4;
 
-
-
 // Замерьте время, за которое в ArrayList добавятся 10000 элементов.
 // Замерьте время, за которое в LinkedList добавятся 10000 элементов. Сравните с предыдущим.
 
+// import java.util.ArrayList;
+// import java.util.LinkedList;
+// import java.util.List;
 
 // public class seminar_4 
 // {
@@ -20,16 +21,19 @@ package lesson_4;
 //         test2(list2);
 //     }
 
-//     private static void test(List<Integer> list) {
+//     private static void test(List<Integer> list) 
+//     {
 //         long timeStart = System.currentTimeMillis();
-//         for (int i = 0; i < 1000000; i++) {
+//         for (int i = 0; i < 10000000; i++) 
+//         {
 //             list.add(i);
 //         }
 //         long timeFinish = System.currentTimeMillis();
 //         System.out.println(list.getClass().getSimpleName() + ": " + (timeFinish - timeStart));
 //     }
 
-//     static void test2(List<Integer> list){
+//     static void test2(List<Integer> list)
+//     {
 //         long sum = 0;
 //         long timeStart = System.currentTimeMillis();
 //         for (Integer integer : list) {
@@ -46,42 +50,52 @@ package lesson_4;
 // Нужно рассплитить строку по ~, сохранить text в связный список на позицию num.
 // Если введено print~num, выводит строку из позиции num в связном списке и удаляет её из списка.
 
+// import java.util.LinkedList;
+// import java.util.List;
+// import java.util.Scanner;
+
+
 // public class seminar_4 
 // {
 //     public static void main(String[] args) 
-//     {
-//         Scanner scanner = new Scanner(System.in);
-//         List<String> list = new LinkedList<>();
-//         boolean work = true;
-//         while (work){
-//             System.out.println("Введите строку вида text~num");
-//             String line = scanner.nextLine();
-//             String[] arr = line.split("~");
-//             String text = arr[0];
-//             int num = Integer.parseInt(arr[1]);
-//             switch (text){
-//                 case "print":
-//                     System.out.println(list.remove(num));
-//                     break;
-//                 case "end":
-//                     work = false;
-//                     break;
-//                 default:
-//                     list.add(num, text);
-//             }
-//         }
-//     }
+    //{
+    //     Scanner scanner = new Scanner(System.in);
+    //     List<String> list = new LinkedList<>();
+    //     boolean work = true;
+
+    //     while (work) 
+    //     {
+    //         System.out.println("Введите строку вида print~num"); 
+    //         String line = scanner.nextLine();
+    //         String[] arr  = line.split("~");
+    //         String text = arr[0];
+    //         int num = Integer.parseInt(arr[1]);
+            
+    //         switch (text) 
+    //         {
+    //             case "print":
+    //             System.out.println(list.remove(num));
+    //                 break;
+    //             case "end":
+    //                 work = false;
+    //                 break;
+    //             default:
+    //                 list.add(num, text);
+    //         }
+    //     }
+    // }
     
 // }
 
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-// Написать метод, который принимает массив элементов, помещает их в стэк и выводит на консоль содержимое стэка.
-// Написать метод, который принимает массив элементов, помещает их в очередь и выводит на консоль содержимое очереди.
+// реализовать консольное приложение, котрое:
+// принимпет от пользователя и запоминает строки
+// если введено print, выводит строки так, чтобы последняя введеная была первой в списке, а первая - последней
+// если введено revent, удаляет предыдущую введеную строку из памяти
 
 // import java.util.LinkedList;
-// import java.util.ListIterator;
 // import java.util.Scanner;
 
 // public class seminar_4 
@@ -91,21 +105,21 @@ package lesson_4;
 //         Scanner scanner = new Scanner(System.in);
 //         LinkedList<String> list = new LinkedList<>();
 //         boolean flag = true;
-//         while (flag) {
+
+//         while (flag)
+         
+//         {
 //             String text = scanner.nextLine();
+            
 //             switch (text) {
 //                 case "print":
-//                     /*for (int i = list.size()-1; i >= 0; i--)
+//                     for (int i = list.size() - 1; i >= 0; i--) 
 //                     {
-//                         System.out.println(list.get(i));
-//                     }*/
-//                     ListIterator<String> iterator = list.listIterator(list.size());
-//                     while (iterator.hasPrevious()) {
-//                         System.out.println(iterator.previous());
+//                         System.out.println(list.get(i));    
 //                     }
 //                     break;
-//                 case "revert":
-//                     list.remove(list.size()-1);
+//                 case "revent":
+//                     list.remove(list.size() - 1);
 //                     break;
 //                 case "end":
 //                     flag = false;
@@ -115,7 +129,6 @@ package lesson_4;
 //                     break;
 //             }
 //         }
-            
 //     }
     
 // }

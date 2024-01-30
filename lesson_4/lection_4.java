@@ -42,50 +42,54 @@ package lesson_4;
 
 // Stack
 
-import java.util.Stack;
+// import java.util.Stack;
 
-public class lection_4 
-{
-    public static void main(String[] args) 
-    {
-        var exp = "1 2 3 * +".split(" ");
-        int res = 0;
-        System.out.println(exp);
+// public class lection_4 
+// {
+//     public static void main(String[] args) 
+//     {
+//         var exp = "1 2 3 * +".split(" ");
+//         int res = 0;
+//         System.out.println(exp);
         
-        Stack<Integer> st = new Stack<>();
-        for (int i = 0; i < exp.length; i++) 
-        {
-            if (isDigit(exp[i]))     // isDigit(exp[i]) если текущий элемнет является числом, то добовляем в stack
-            {
-                st.push(Integer.parseInt(exp[i]));
-            }
-            else
-            {
-                switch (exp[i]) 
-                {
-                    case "+":
-                        res = st.pop() + st.pop();
-                        st.push(res);
-                        break;
-                    case "-":
-                        res = -st.pop() + st.pop();
-                        st.push(res);
-                        break;
-                    case "*":
-                        res = st.pop() * st.pop();
-                        st.push(res);
-                        break;
-                    case "/":
-                        res = st.pop() / st.pop();
-                        st.push(res);
-                        break;
-                    default:
-                        break;
-                }
-            }
-        }
-        System.out.printf("%d\n", st.pop());
-    }
+//         Stack<Integer> st = new Stack<>();
+//         for (int i = 0; i < exp.length; i++) 
+//         {
+//             if (isDigit(exp[i]))     // isDigit(exp[i]) если текущий элемнет является числом, то добовляем в stack
+//             {
+//                 st.push(Integer.parseInt(exp[i]));
+//             }
+//             else
+//             {
+//                 switch (exp[i]) 
+//                 {
+//                     case "+":
+//                         res = st.pop() + st.pop();
+//                         st.push(res);
+//                         break;
+//                     case "-":
+//                         res = -st.pop() + st.pop();
+//                         st.push(res);
+//                         break;
+//                     case "*":
+//                         res = st.pop() * st.pop();
+//                         st.push(res);
+//                         break;
+//                     case "/":
+//                         res = st.pop() / st.pop();
+//                         st.push(res);
+//                         break;
+//                     default:
+//                         break;
+//                 }
+//             }
+//         }
+//         System.out.printf("%d\n", st.pop());
+//     }
 
-   
-}
+//     private static boolean isDigit(String string) 
+//     {
+//        return string.matches("\\d");
+//     }
+  
+// }
