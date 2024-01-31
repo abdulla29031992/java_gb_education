@@ -1,7 +1,7 @@
-package lesson_4;
+// package lesson_4;
 
-import java.util.ArrayDeque;
-import java.util.Arrays;
+// import java.util.ArrayDeque;
+// import java.util.Arrays;
 
 // Пусть дан LinkedList с несколькими элементами. Реализуйте метод, который вернет “перевернутый” список.
 
