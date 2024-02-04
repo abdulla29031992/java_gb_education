@@ -1,5 +1,7 @@
 package lesson_5;
 
+
+
 // Создать структуру для хранения Номеров паспортов и Фамилий сотрудников организации.
 // 123456 Иванов 
 // 321456 Васильев 
@@ -83,7 +85,6 @@ package lesson_5;
 //     }   
 // }
 
-
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 /* 
@@ -125,4 +126,58 @@ package lesson_5;
 //         }
 //         return true;
 //     } 
+// }
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// Взять набор строк, например,
+
+// Мороз и солнце день чудесный
+// Еще ты дремлешь друг прелестный
+// Пора красавица проснись.
+
+// Написать метод, который осортирует эти слова по длине с помощью ТееМар.
+// Слова с одинаковой длиной не должны
+
+// import java.util.ArrayList;
+// import java.util.List;
+// import java.util.Map;
+// import java.util.TreeMap;
+
+// public class seminar_5 
+// {
+//     public static void main(String[] args) 
+//     {
+//         String s =  "Мороз и солнце день чудесный\n" +
+//                     "Еще ты дремлешь друг прелестный\n" +
+//                     "Пора красавица проснись."; 
+        
+//         sort_by_length(s);
+//     }
+    
+//     static void sort_by_length(String s)
+//     {
+//         Map<Integer, List<String>> treeMap = new TreeMap<>();
+        
+//         s = s.replace(" . ", " ");
+//         s = s.replace("\n", "");
+//         String[] words = s.split(" ");
+
+//         for (String word: words)
+//         {
+//             int len = word.length();
+//             if (treeMap.containsKey(len))
+//             {
+//                 List<String> list = treeMap.get(len);
+//                 list.add(word);
+//             }
+//             else
+//             {
+//                 List<String> list = new ArrayList<>();
+//                 list.add(word);
+//                 treeMap.put(len, list);
+//             }
+//         }
+//         System.out.println(treeMap);
+//     }
 // }
