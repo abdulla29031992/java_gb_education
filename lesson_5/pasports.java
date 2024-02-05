@@ -1,4 +1,4 @@
-package lesson_5;
+// package lesson_5;
 
 // import java.util.HashMap;
 // import java.util.Map;

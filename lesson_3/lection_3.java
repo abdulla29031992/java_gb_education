@@ -1,4 +1,4 @@
-package lesson_3;
+// package lesson_3;
 
 // // тип данных
 // public class lection_3 

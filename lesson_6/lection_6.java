@@ -1,4 +1,4 @@
-package lesson_6;
+// package lesson_6;
 
 // import java.util.HashSet;
 // import java.util.Set;
@@ -87,5 +87,4 @@ package lesson_6;
 //         System.out.println(workers.contains(w4));
 
 //     }
-    
 // }
