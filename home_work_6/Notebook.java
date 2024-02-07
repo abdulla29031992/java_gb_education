@@ -8,7 +8,7 @@ public class Notebook
     private String operatingSystem;
     private String colour;
     
-    public void Notebook(String name, String ram, String hardDisk, String operatingSystem, String colour) 
+    public Notebook(String name, String ram, String hardDisk, String operatingSystem, String colour)
     {
         this.name = name;
         this.ram = ram;
@@ -32,11 +32,13 @@ public class Notebook
         return hardDisk;
     }
 
+    
     public String getOperatingSystem() 
     {
         return operatingSystem;
     }
 
+    
     public String getColour() 
     {
         return colour;
