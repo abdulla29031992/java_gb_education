@@ -151,8 +151,21 @@
         
 //         System.out.println(cat_3.equals(cat_4));
         
-//         printSet(cats);
+//         printSet(filterAsAge(cats, 9));
 
+//     }
+
+//     static Set<cat> filterAsAge(Set<cat> cats, int age)
+//     {
+//         Set<cat> set = new HashSet<>();
+//         for (cat cat: cats) 
+//         {
+//             if (cat.age == age)
+//             {
+//                 set.add(cat);
+//             }
+//         }
+//         return set;
 //     }
 
 //     static void printSet(Set<cat> set)
@@ -161,6 +174,5 @@
 //         {
 //             System.out.println(cat);
 //         }
-//     }
-    
+//     } 
 // }
